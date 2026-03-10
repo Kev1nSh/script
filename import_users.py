@@ -10,5 +10,5 @@ if not os.path.isfile(csv_file):
 
 print(f"Importerar användare från '{csv_file}'...")
 
-subprocess.run(["bash", "./import_ldap_users.sh", csv_file])
+subprocess.run(["bash", "./import_ladp_users.sh", csv_file])
 print("Importen är klar.")
